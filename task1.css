@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('bg.jfif');
+}
+
+
+.above{
+    height: 90vh;
+    width: 90vw;
+    background-color: rgb(94, 7, 47);
+  margin: 40px 40px;
+  border-radius: 15px;
+}
+
+.navbar{
+    padding-top: 15px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+
+}
+
+.navi
+{
+    color: rgb(117, 79, 174);
+}
+
+.navbar a
+{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;    
+
+}
+.leftbox
+{
+    float: left;
+    width: 50%; 
+}
+
+
+.rightbox
+ {
+    float: right;
+    width: 50%; 
+}
+
+.forinput{
+background-color: rgba(255, 192, 203, 0.374);
+border: none;
+border-radius: 15px;
+margin: 12px;
+width: 250px;
+height: 70px;
+text-align: center;
+}
+
+input{
+    font-size: 24px;
+}
+
+textarea{
+    padding: 30px;
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.btn{
+    background-color: rgba(255, 192, 203, 0.995);
+    margin: 15px;
+    padding: 20px;
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    font-size: bold;
+    color: rgb(94, 7, 47);
+    font-size: 24px;
+    display: block;
+    margin-left: 35%;
+    font-weight: bold;
+    
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 100vw;
+}
+
+.first{
+    margin-top: 25px;
+    margin-left: 105px;
+    font-size: 24px;
+    text-align: left;
+    width: 100%;
+    color: palevioletred;
+    font-weight: bold;
+}
+
+.second{
+    
+    margin-left: 85px;
+    font-size: 24px;
+    text-align: left;
+    width: 100%;
+    color: white;
+
+}
+
+
+
+.contact-info{
+    
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.call{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-size: medium;
+
+}
+
+.contactinfo2{
+    margin-top: 15px;
+    color: palevioletred;
+    font-size: 20px;
+
+}
+
+.picture
+{
+    margin-top: 30px;
+    display:flex;
+    gap: 30px;
+}
+
+.pic{
+
+    width: 30px;
+}
